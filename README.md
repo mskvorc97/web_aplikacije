@@ -1,1 +1,1 @@
-# web_aplikacije
+# Zadatci iz predmeta Web aplikacije
