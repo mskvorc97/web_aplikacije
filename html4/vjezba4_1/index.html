@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML forma</title>
+	</head>
+	<body>
+		<form action="adduser.php" method="post">
+			<div class="form-group">
+				<label for="firstname"><b>Ime: </b></label><br>
+				<input type="text" id="firstname" name="firstname"><br>
+			</div>
+			<div class="form-group">
+				<label for="lastname"><b>Prezime: </b></label><br>
+				<input type="text" id="lastname" name="lastname"><br>
+			</div>
+			<div class="form-group">
+				<label for="email"><b>E-mail: </b></label><br>
+				<input type="email" id="email" name="email"><br>
+			</div>
+			<div class="form-group">
+				<label for="gender"><b>Spol: </b></label><br>
+				<input type="radio" id="gender" name="gender" value"Male"> Muško<br>
+				<input type="radio" id="gender" name="gender" value"Female"> Žensko<br>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Pošalji">
+				<input type="reset" value="Poništi">
+			</div>
+		</form>
+	</body>
+</html>
